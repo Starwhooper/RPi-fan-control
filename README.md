@@ -1,13 +1,13 @@
 # RPi-fan-control
 
-##install##
+## install ##
 ```bash
 cd /opt
 sudo git clone https://github.com/Starwhooper/RPi-fan-control
 sudo chmod +x /opt/RPi-fan-control/fan.py3
 ```
 
-##start##
+## start ##
 ```bash
 /opt/RPi-fan-control/fan.py3 21
 ```
