@@ -20,8 +20,7 @@ sudo git pull origin main
 _21 in case you wish to use GPIO 21 (PIN 40)_
 
 ## autostart ## 
-add
+add it to /etc/rc.local
 ```bash
-/opt/RPi-fan-control/fan.py3 21 &
+sudo sed -i -e '$i \/opt/RPi-fan-control/fan.py3 21 &\n' /etc/rc.local
 ```
-to /etc/rc.local
