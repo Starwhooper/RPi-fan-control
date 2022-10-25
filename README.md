@@ -1,5 +1,7 @@
 # RPi-fan-control
 
+check information about my pcb: https://github.com/Starwhooper/RPi-fan-control/edit/main/circuit%20board
+
 ## install ##
 ```bash
 sudo git clone https://github.com/Starwhooper/RPi-fan-control /opt/RPi-fan-control
