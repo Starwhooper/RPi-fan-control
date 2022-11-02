@@ -5,7 +5,7 @@ components:
 * resistor: 10Ω (https://www.az-delivery.de/products/az-resistor-kit-525-widerstande)
 
 connections:
-* S: Signal, connected to a GPIO to open/close the transistor. Ttypical GPIO 21 (PIN 40)
-* I: Power Input: connected to power source. As example a 5V or 3.3V port from Raspberry Pi
-* O: Power Output: connected to the + connection of the Fan
-The - connection of the fan get no connection in my board. Its connected the on of the GRD connection of the Raspberry Pi
+* S: Signal, connected to a GPIO to open/close the transistor. Typical GPIO 21 (PIN 40)
+* I: Power Input **AFTER** fan: connected to power GRD (means black wire) of Fan
+* O: Power Output: Its connected the one of the GRD connection of the Raspberry Pi
+The + connection of the fan is connected the one of the 5V Port of the Raspberry Pi
